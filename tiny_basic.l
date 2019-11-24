@@ -31,7 +31,7 @@ decimals                [-+]?[0-9]*\.[0-9]+
 [-+*/=(),]              { return *yytext; }
 [ \t]+                  {  } 
 .                       { 
-                            showErr("[Parsing Error] Unknown syntax."); 
+                            showErr("Unknown syntax."); 
                             fprintf(stdout, "%s\n", yytext); 
                         }
 
