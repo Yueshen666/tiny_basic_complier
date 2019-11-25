@@ -53,3 +53,8 @@ You may need a pre-configured linux system to run the project.
 Ref: 
 https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html
 
+
+## 5. Future interesting extensions
+To better mimic a complier in real world, the next step is to focus on optimizations and assembly code generation.
+A stack machine (with one prime register with stack) can be a simple solution.
+
