@@ -48,4 +48,8 @@ var ::= A | B | C .... | Y | Z
 
 relop ::= < | <= | > | >= | == | !=
 
+## 4. Environment
+You may need a pre-configured linux system to run the project. 
+Ref: 
+https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html
 
