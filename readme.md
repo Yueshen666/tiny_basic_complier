@@ -49,9 +49,11 @@ var ::= A | B | C .... | Y | Z
 relop ::= < | <= | > | >= | == | !=
 
 ## 4. Environment
-You may need a pre-configured linux system to run the project. 
+You may need a pre-configured linux system (in which flex/bison is installed. Note some implementation of flex and bison may work with lex and yacc, I do not recommend) to run the project. 
 Ref: 
 https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+https://github.com/westes/flex/releases
+http://ftp.gnu.org/gnu/bison
 
 
 ## 5. Future interesting extensions
